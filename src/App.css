@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.nav-bar h2 {
+  margin: 40px;
+  float: right;
+  text-decoration: none;
+}
+
+.nav-bar h2:hover{
+  font-size: 160%;
+  
+}
+
+.App{
+  display: block;
+  justify-content: baseline;
+}
+
+.cat-items {
+  border:2px solid black;
+  margin: 10px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.nav-bar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  
+}
+
+img{
+  width: 120px;
+  height: 120px;
+}
+
+.item-input > *{
+  margin: 2px;
+}
+
+.item-input input{
+  text-align: center;
+}
+
+.total-amount{
+  margin: 20px;
+  float: right;
+}
